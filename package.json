@@ -1,0 +1,36 @@
+{
+  "name": "download-hgt",
+  "version": "1.0.0",
+  "description": "Downloads all *.hgt files required to cover a given geographic region",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rednil/download-hgt.git"
+  },
+  "keywords": [
+    "srtm",
+    "dem",
+    "topo",
+    "mapnik",
+    "osm"
+  ],
+  "author": "Christian R. Linder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rednil/download-hgt/issues"
+  },
+  "homepage": "https://github.com/rednil/download-hgt",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "point-in-polygon": "0.0.0",
+    "request": "^2.53.0",
+    "shelljs": "^0.3.0",
+    "unzip": "^0.1.11"
+  }
+}
